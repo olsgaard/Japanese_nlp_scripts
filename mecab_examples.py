@@ -14,7 +14,7 @@ This script is a reference for mecab python bindings usage.
 """
 
 import MeCab as mecab # I prefer to work with lower-case
-text ="これは日本語の礼文です。カタカナもある。自由が丘の駅で、大井町線から降りると、ママは、トットちゃんの手を引っ張って、改札口を出ようとした。トットちゃんは、それまで、あまり電車に乗ったことがなかったから、大切に握っていた切符をあげちゃうのは、もったいないなと思った。"
+text ="窓際のトットちゃん。Chapter1: 自由が丘の駅で、大井町線から降りると、ママは、トットちゃんの手を引っ張って、改札口を出ようとした。トットちゃんは、それまで、あまり電車に乗ったことがなかったから、大切に握っていた切符をあげちゃうのは、もったいないなと思った。"
 print("Original text:", text)
 print('-'*40)
 

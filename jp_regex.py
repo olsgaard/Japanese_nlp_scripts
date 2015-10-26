@@ -38,9 +38,8 @@ def remove_unicode_block(unicode_block, string):
 	''' removes all chaacters from a unicode block and returns all remaining texts from string argument.
 		Note that you must use the unicode blocks defined above, or patterns of similar form '''
 	return re.sub( unicode_block, '', string)
-# Examples:
 
-
+## EXAMPLES ## 
 
 text = '初めての駅 自由が丘の駅で、大井町線から降りると、ママは、トットちゃんの手を引っ張って、改札口を出ようとした。ぁゟ゠ヿ㐀䶵一鿋豈頻⺀⿕｟ﾟabc！～、〿ㇰㇿ㈠㉃㊀㋾㌀㍿'
 

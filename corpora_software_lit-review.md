@@ -298,11 +298,3 @@ The corpus can be manually queried free of charge via either the *Shonagon* or *
     * POS tagging twitter
 
     * build a twitter corpus of 1000 posts, 1831 sentences all manually segmented and annotated with POS.
-
-## Problem with dictionaries - compiling from source
-
-It is unclear how *any* of these dictionaries are compiled. They are all compiled for MeCab, and they seemingly contain a lot of statistical information (particularly matrix.def, but all .csv files contain 3 large numbers per entry) and without a way to recompile dictionaries from source, there seems to be little chance at improving on MeCab.
-
-It does however appear that unidic is the most open of the 3.
-
-One can ask for source dictionary by email to [kindai-corpus@ninjal.ac.jp](mailto:kindai-corpus@ninjal.ac.jp) 

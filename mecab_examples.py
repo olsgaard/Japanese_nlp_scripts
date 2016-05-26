@@ -6,10 +6,11 @@ Created on Thu Oct 16 15:46:44 2014
 
 Released under BSD License
 
-This script is a reference for mecab python bindings usage.
+This script is a reference for mecab python3 bindings usage.
 
 * For installing mecab python bindings, see https://github.com/SamuraiT/mecab-python3
 * For using MeCab, see http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html
+* For installing MeCab on OSX, see 
 
 """
 

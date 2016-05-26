@@ -1,4 +1,4 @@
-''' This is a quick and dirty script to make good hiragana <-> katakana transliteration in just
+''' This is a quick script to make good hiragana <-> katakana transliteration in just
 	4 lines of python.
 
 	If you don't need romaji translitteration and want to lower your scripts dependencies you can
@@ -36,5 +36,5 @@ print(mixed.translate(hir2kat))
 # out: キャリーパミュパミュハ日本ノ歌手デス。
 
 # translating back to hiragana gives us the expected result, because we didn't add every katakana and hiragana code block to the translation charts
-print(mixed.translation(hiragana_chart).translate(kat2hir))
+print(mixed.translate(hir2kat).translate(kat2hir))
 # out: きゃりーぱみゅぱみゅは日本の歌手です。

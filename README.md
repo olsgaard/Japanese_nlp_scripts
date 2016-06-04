@@ -58,6 +58,13 @@ And it is used like so:
     
 Notice how kanji and special characters are left alone.
 
+## get_char_type.py
+
+Function to determine the character class of a single character in a Japanes text.
+Distinguishes between 6 classes, OTHER, ROMAJI, HIRAGANA, KATAKANA, DIGIT, KANJI
+
+These classes can be useful as features in a machine learning classifier.
+
 ## matplotlib_fontcheck.py
 
 If you are working with any kind of NLP in Python that involves Japanese, it is paramount to be able to view summary statics in the form of graphs that in one way or another includes Japanese characters. 

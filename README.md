@@ -7,7 +7,7 @@ Copyright (c) 2014-2016, Mads Sørensen Ølsgaard, olsgaard.dk
 
 ## jp_regex.py
 
-his is a library of functions and variables that are helpful to have handy when manipulating Japanese text in python. This is optimized for Python 3.x, and takes advantage of the fact that all strings are unicode.
+This is a library of functions and variables that are helpful to have handy when manipulating Japanese text in python. This is optimized for Python 3.x, and takes advantage of the fact that all strings are unicode.
 
 It mainly stores regexes to find hiragana, katakana, kanji and other types of characters in a string, as well as some easy to use shortcut functions.
 
@@ -89,7 +89,7 @@ As you can see, I’m running Anaconda Python 3, and if Anaconda can’t find a 
 
 It will also draw a plot in matplotlib, where you can see how the different fonts handle CJK-characters and alphabet.
 
-<img src="http://olsgaard.dk/notes/wp-content/uploads/2014/10/fontcheck.png">
+<img src="http://olsgaard.dk/assets/2014/10/fontcheck.png">
 
 I’ve found the simplest way of changing fonts in matplotlib to simply be using `matplotlib.rc`
 

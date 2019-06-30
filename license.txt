@@ -1,3 +1,5 @@
+This repository contains several unrelated pieces of source code and should not be considered 1 piece of software or 1 cohesive collection of source code or software. Some files are available here under varying licenses. Unless otherwise noted, all software in this reposo is,
+
 Copyright (c) 2014-2016, Mads sørensen Ølsgaard, olsgaard.dk
 All rights reserved.
 
